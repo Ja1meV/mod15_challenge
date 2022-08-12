@@ -1,6 +1,6 @@
 # mod15_challenge
 
-Building a robo advisor both existing and potentially new customers will be able to use this robo advisor to get investment portfolio recommendations for retirement.
+With machine learning this project was built to create a robo advisor that could be used by customers or potential new customers to get investment portfolio recommendations for retirement.
 
 ## Contributors
 
