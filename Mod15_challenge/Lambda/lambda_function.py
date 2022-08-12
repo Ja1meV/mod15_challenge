@@ -160,6 +160,7 @@ def recommend_portfolio(intent_request):
     investment_amount = get_slots(intent_request)["investmentAmount"]
     risk_level = get_slots(intent_request)["riskLevel"]
     source = intent_request["invocationSource"]
+    
     if source == "DialogCodeHook":
         # This code performs basic validation on the supplied input slots.
 
