@@ -162,12 +162,10 @@ def recommend_portfolio(intent_request):
     source = intent_request["invocationSource"]
     
     if source == "DialogCodeHook":
-        # This code performs basic validation on the supplied input slots.
-
         # Gets slots
         slots = get_slots(intent_request)
 
-        # Validates user's input using the validate_data function
+        # Validates user's input 
         validation_result = validate_data(first_name, age, investment_amount, risk_level)
 
         # If the data provided by the user is not valid,
